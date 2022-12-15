@@ -17,7 +17,7 @@ int main()
 	cin >> b;
 	cout << "\tn=";
 	cin >> n;
-	y = (exp(a * n) + b) * (0.255 * (pow(log(a * n), 2)));
+	y = (exp(a * n) + b) * (0.255 * (pow(log(a * n), 22)));
 
 
 	cout << "Результа=" << y << endl;
